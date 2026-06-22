@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">空调定时助手</string>
+    <string name="accessibility_service_label">空调定时助手自动控制服务</string>
+    <string name="accessibility_service_description">在预设时间自动控制 vivo 智能遥控，打开空调并设置定时关闭。</string>
+
+    <string name="title">空调定时助手</string>
+    <string name="subtitle">像智慧遥控一样，简洁设置，直接执行。</string>
+    <string name="hero_badge">smart remote</string>
+    <string name="settings_title">自动化设定</string>
+    <string name="settings_subtitle">时间、时长、名称</string>
+    <string name="status_disabled">未启用</string>
+    <string name="status_enabled">已启用</string>
+    <string name="status_enabled_with_time">下次 %1$s</string>
+    <string name="status_waiting_accessibility">待开启 %1$s</string>
+
+    <string name="section_schedule_time">启动时间</string>
+    <string name="schedule_time_placeholder">选择时间</string>
+    <string name="schedule_time_value">%1$02d:%2$02d</string>
+    <string name="section_aircon_name">遥控名称</string>
+    <string name="aircon_name_hint">例如：华凌空调遥控器</string>
+    <string name="default_aircon_name">华凌空调遥控器</string>
+    <string name="section_timer_duration">定时时长</string>
+    <string name="timer_30m">30分钟</string>
+    <string name="timer_hour_format">%1$d小时</string>
+    <string name="timer_hour_half_format">%1$d小时%2$d分钟</string>
+
+    <string name="btn_enable">启动任务</string>
+    <string name="btn_disable">停止任务</string>
+    <string name="btn_test">立即测试</string>
+    <string name="btn_save">保存设置</string>
+    <string name="system_shortcuts">系统入口</string>
+    <string name="btn_accessibility">无障碍</string>
+    <string name="btn_battery">电池优化</string>
+    <string name="accessibility_service_hint">服务：%1$s</string>
+
+    <string name="error_aircon_name_required">请输入遥控卡片名称</string>
+    <string name="settings_saved">设置已保存</string>
+    <string name="accessibility_required_first">请先开启“%1$s”</string>
+    <string name="auto_task_enabled">自动任务已启用，下次执行时间：%1$s</string>
+    <string name="auto_task_disabled">自动任务已关闭</string>
+    <string name="test_will_start">3 秒后开始测试</string>
+    <string name="battery_optimization_manual_hint">请在系统设置里手动关闭本应用的电池优化</string>
+    <string name="exact_alarm_permission_required">请先允许此应用使用精确定时，否则无法按时触发</string>
+    <string name="keep_alive_service_start_failed">后台保活服务启动失败，请重试一次</string>
+
+    <string name="accessibility_dialog_title">需要开启无障碍服务</string>
+    <string name="accessibility_dialog_message">本应用需要通过无障碍服务自动操作 vivo 智能遥控。
+请在系统设置中开启“%1$s”。</string>
+    <string name="accessibility_open_settings_hint">已打开系统无障碍设置，请找到并开启“%1$s”</string>
+    <string name="go_enable">前往开启</string>
+    <string name="later">稍后</string>
+
+    <string name="service_channel_name">空调定时后台服务</string>
+    <string name="service_channel_description">用于在后台保持自动任务存活</string>
+    <string name="completion_channel_name">任务完成通知</string>
+    <string name="completion_channel_description">自动流程结束后发送通知</string>
+    <string name="completion_notification_title">空调自动任务已完成</string>
+    <string name="completion_notification_text">应用已尝试打开空调并设置定时关闭</string>
+    <string name="keep_alive_notification_title">空调定时助手运行中</string>
+    <string name="keep_alive_notification_text">正在后台等待下一次定时触发</string>
+</resources>

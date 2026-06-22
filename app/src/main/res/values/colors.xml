@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_primary">#1FB5C9</color>
+    <color name="brand_primary_dark">#1493A5</color>
+    <color name="brand_accent">#46C9D6</color>
+    <color name="brand_accent_dark">#1690A0</color>
+    <color name="surface">#EEF3F7</color>
+    <color name="panel_surface">#F7FAFC</color>
+    <color name="input_surface">#FCFEFF</color>
+    <color name="card_stroke">#DCE6ED</color>
+    <color name="text_primary">#1E2B36</color>
+    <color name="text_secondary">#738493</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
